@@ -8,6 +8,7 @@ public class CadastroProduto {
 
 	public static void main(String[] args) {
 
+//		Collection produtos = new ArrayList<>();
 		Collection produtos = new HashSet<>();
 
 		System.out.println("##### Cadastro de produtos #####\n");
@@ -31,7 +32,7 @@ public class CadastroProduto {
 					System.out.println("Produto adicionado!");
 				}
 
-				System.out.println("Deseja adicionar mais algum produti? (s/n) ");
+				System.out.println("Deseja adicionar mais algum produto? (s/n) ");
 
 				continuar = entrada.nextLine();
 			}
